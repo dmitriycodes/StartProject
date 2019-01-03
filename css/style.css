@@ -1,0 +1,14 @@
+* {
+	transition: all .3s linear;
+}
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.box {
+	text-align: center;
+	background-color: #fcf;
+	padding: 25px;
+	width: 50%;
+	margin: 0px auto; 
+}
