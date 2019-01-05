@@ -12,3 +12,63 @@ body {
 	width: 50%;
 	margin: 0px auto; 
 }
+
+.todo {
+	border: 1px solid red;
+	width: 80%;
+	margin: 0px auto;
+	padding: 50px 0px;
+}
+.todo-info {
+	display: flex;
+	justify-content: center;
+}
+
+.todo-info div {
+	padding: 10px 15px;
+	outline: 1px solid rgb(0, 26, 255);
+}
+
+.todo-go {
+	width: 50%;
+	margin: 0px auto;
+	display: flex;
+	margin-top: 15px;
+}
+.todo-go button {
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.todo-go input{
+	width: 100%;
+}
+
+.todo-list {
+	width: 50%;
+	margin: 0px auto;
+	
+	margin-top: 10px;
+}
+.todo-list__task {
+	background-color: rgb(243, 241, 196);
+	margin-top: 10px;
+
+
+}
+
+.todo-list__task div {
+	float: right;
+	padding: 0px 5px;
+	cursor: pointer;
+	margin-right: 5px;
+}
+.check:hover i{
+	color: rgb(96, 205, 255);
+}
+.del:hover i{
+	color: red;
+}
+.line-through {
+	text-decoration: line-through;
+}
